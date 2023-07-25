@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code
-parent: NCEP ON 388-Grib1
+parent: NCEP Office Note 388-Grib1
 # has_children: true
 nav_order: 6
 ---

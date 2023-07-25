@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NCEP ON 388-Grib2
+title: NCEP Office Note 388-Grib2
 nav_order: 2
 # id: grib2
 has_children: true

@@ -3,7 +3,7 @@ layout: default
 title: UI Components
 nav_order: 3
 # has_children: true
-parent: NCEP ON 388-Grib1
+parent: NCEP Office Note 388-Grib1
 ---
 
 # UI Components

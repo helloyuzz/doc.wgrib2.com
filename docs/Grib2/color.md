@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Color
-parent: NCEP ON 388-Grib2
+parent: NCEP Office Note 388-Grib2
 ---
 
 # Color Utilities

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tables
-parent: NCEP ON 388-Grib1
+parent: NCEP Office Note 388-Grib1
 nav_order: 4
 ---
 

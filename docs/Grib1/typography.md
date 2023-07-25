@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Typography
-parent: NCEP ON 388-Grib1
+parent: NCEP Office Note 388-Grib1
 nav_order: 1
 ---
 

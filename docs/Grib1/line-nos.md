@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Code with line numbers
-parent: NCEP ON 388-Grib1
-grand_parent: UI Components
+parent: NCEP Office NoteON 388-Grib1
+# grand_parent: UI Components
 # permalink: /docs/Grib-1/code/line-numbers/
 ---
 
