@@ -4,6 +4,7 @@ title: Section 4
 subtitle: Binary Data Section (BDS)
 parent: NCEP Office Note 388-Grib1
 nav_order: 5
+has_children: true
 ---
 
 ## Table of contents

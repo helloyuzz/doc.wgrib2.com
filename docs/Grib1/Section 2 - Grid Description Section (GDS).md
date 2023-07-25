@@ -4,6 +4,7 @@ title: Section 2
 subtitle: Grid Description Section (GDS)
 parent: NCEP Office Note 388-Grib1
 nav_order: 3
+has_children: true
 ---
 
 {: .no_toc }

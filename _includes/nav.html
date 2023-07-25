@@ -89,7 +89,7 @@
                 {%- for grand_child in grand_children_list -%}
                   {%- unless grand_child.nav_exclude -%}
                   <li class="nav-list-item {% if page.url == grand_child.url %} active{% endif %}">
-                    <a href="{{ grand_child.url | relative_url }}" class="nav-list-link{% if page.url == grand_child.url %} active{% endif %}" style="line-height:100% !important;"><span>{{ grand_child.title }}</span><br><span style="font-size:9pt !important;">{{ grand_child.subtitle }}</span></a>
+                    <a href="{{ grand_child.url | relative_url }}" class="nav-list-link{% if page.url == grand_child.url %} active{% endif %}" style="line-height:100% !important;"><span>{{ grand_child.title }}</span><br><span style="font-size:9pt !important;color: #477089;">{{ grand_child.subtitle }}</span></a>
                   </li>
                   {%- endunless -%}
                 {%- endfor -%}
