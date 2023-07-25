@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Lists
+title: Appendix C
+subtitle: Outline of NCEP's use of the extended PDS section for ensemble modeling
 parent: NCEP Office Note 388-Grib1
-nav_order: 5
+nav_order: 9
 ---
-
-# Lists
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }

@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Tables
+title: Section 3
+subtitle: Bit Map Section (BMS)
 parent: NCEP Office Note 388-Grib1
 nav_order: 4
 ---
-
-# Tables
 
 Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport.
 

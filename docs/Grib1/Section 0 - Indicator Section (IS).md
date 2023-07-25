@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Buttons
+title: Section 0
+subtitle: Indicator Section (IS)
 parent: NCEP Office Note 388-Grib1
-nav_order: 2
+nav_order: 1
 ---
-
-# Buttons
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }

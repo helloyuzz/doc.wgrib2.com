@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Labels
+title: Appendix A
+subtitle: Outline of WMO Headers Used With GRIB
 parent: NCEP Office Note 388-Grib1
-nav_order: 3
+nav_order: 7
 ---
-
-# Labels
 
 Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue.
 

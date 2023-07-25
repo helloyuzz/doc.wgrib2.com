@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Code with line numbers
-parent: NCEP Office NoteON 388-Grib1
+title: Appendix B
+subtitle: Outline of WMO Headers for the EPA
+parent: NCEP Office Note 388-Grib1
+nav_order: 8
 # grand_parent: UI Components
 # permalink: /docs/Grib-1/code/line-numbers/
 ---
-
-# Code snippets with line numbers
 
 The default settings for HTML compression are incompatible with the HTML
 produced by Jekyll (4.1.1 or earlier) for line numbers from highlighted code

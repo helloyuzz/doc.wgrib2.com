@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NCEP Office Note 388-Grib1
-nav_order: 2
+nav_order: 1
 id: grib1
 has_children: true
 ---

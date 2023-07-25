@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Code
+title: Section 2
+subtitle: Grid Description Section (GDS)
 parent: NCEP Office Note 388-Grib1
-# has_children: true
-nav_order: 6
+nav_order: 3
 ---
 
-# Code
 {: .no_toc }
 
 ## Table of contents

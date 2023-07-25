@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Typography
+title: Section 4
+subtitle: Binary Data Section (BDS)
 parent: NCEP Office Note 388-Grib1
-nav_order: 1
+nav_order: 5
 ---
-
-# Typography
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }
