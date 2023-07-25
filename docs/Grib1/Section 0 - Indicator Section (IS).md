@@ -14,6 +14,28 @@ nav_order: 1
 
 ---
 
+## SECTION 0
+
+```
+### THE INDICATOR SECTION (IS)
+Recreated 04/25/2006
+```
+
+{: .note }
+The Indicator Section serves to: identify the start of the record in a human readable form, indicate the total length of the message, and indicate the Edition number of GRIB used to construct or encode the message.  This section is always eight octets long.
+
+## Code Translate
+
+| bit code | description | expain |
+| :-----| :----: | :----: |
+| 1-4 | 'GRIB' (Coded CCITT-ITA No. 5) (ASCII) |  |
+| 5-7 | Total length, in octets, of the GRIB message (including Sections 0 & 5) |  |
+| 8 | Edition number -- currently 1 |  |
+
+
+
+<!-- 
+
 ## Basic button styles
 
 ### Links that look like buttons
@@ -92,3 +114,6 @@ GitHub Flavored Markdown does not support the `button` element, so you'll have t
 [Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
 [Button](http://example.com/){: .btn .btn-blue }
 ```
+
+
+ -->
