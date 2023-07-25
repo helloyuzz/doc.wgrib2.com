@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Typography
-parent: Utilities
+parent: NCEP ON 388-Grib2
 ---
 
 # Typography Utilities

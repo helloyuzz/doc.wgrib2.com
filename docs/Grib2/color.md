@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Color
-parent: Utilities
+parent: NCEP ON 388-Grib2
 ---
 
 # Color Utilities

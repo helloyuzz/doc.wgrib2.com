@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Typography
-parent: UI Components
+parent: NCEP ON 388-Grib1
 nav_order: 1
 ---
 
@@ -111,4 +111,3 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization.
 
-[View typography utilities]({% link docs/utilities/typography.md %}){: .btn .btn-outline }

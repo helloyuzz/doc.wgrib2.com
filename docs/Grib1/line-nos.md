@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Code with line numbers
-parent: Code
+parent: NCEP ON 388-Grib1
 grand_parent: UI Components
-permalink: /docs/ui-components/code/line-numbers/
+# permalink: /docs/Grib-1/code/line-numbers/
 ---
 
 # Code snippets with line numbers

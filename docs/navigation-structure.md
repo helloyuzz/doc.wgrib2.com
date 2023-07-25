@@ -2,6 +2,7 @@
 layout: default
 title: Navigation Structure
 nav_order: 5
+published: false
 ---
 
 # Navigation Structure
@@ -75,34 +76,6 @@ Pages with no `title` are automatically excluded from the main navigation.
 
 ## Pages with children
 
-Sometimes you will want to create a page with many children (a section). First, it is recommended that you keep pages that are related in a directory together... For example, in these docs, we keep all of the written documentation in the `./docs` directory and each of the sections in subdirectories like `./docs/ui-components` and `./docs/utilities`. This gives us an organization like:
-
-```
-+-- ..
-|-- (Jekyll files)
-|
-|-- docs
-|   |-- ui-components
-|   |   |-- index.md  (parent page)
-|   |   |-- buttons.md
-|   |   |-- code.md
-|   |   |-- labels.md
-|   |   |-- tables.md
-|   |   +-- typography.md
-|   |
-|   |-- utilities
-|   |   |-- index.md      (parent page)
-|   |   |-- color.md
-|   |   |-- layout.md
-|   |   |-- responsive-modifiers.md
-|   |   +-- typography.md
-|   |
-|   |-- (other md files, pages with no children)
-|   +-- ..
-|
-|-- (Jekyll files)
-+-- ..
-```
 
 On the parent pages, add this YAML front matter parameter:
 
@@ -117,11 +90,12 @@ layout: default
 title: UI Components
 nav_order: 2
 has_children: true
+published: false
 ---
 
 ```
 
-Here we're setting up the UI Components landing page that is available at `/docs/ui-components`, which has children and is ordered second in the main nav.
+Here we're setting up the UI Components landing page that is available at `/docs/Grib-1`, which has children and is ordered second in the main nav.
 
 ### Child pages
 
@@ -136,7 +110,7 @@ On child pages, simply set the `parent:` YAML front matter to whatever the paren
 ---
 layout: default
 title: Buttons
-parent: UI Components
+parent: Grib1
 nav_order: 2
 ---
 
@@ -239,7 +213,7 @@ Currently, the navigation structure is limited to 3 levels: grandchild pages can
 
 ## Auxiliary Links
 
-To add auxiliary links to your site (in the upper right on all pages), add it to the `aux_links` [configuration option]({% link docs/configuration.md %}#aux-links) in your site's `_config.yml` file.
+
 
 #### Example
 {: .no_toc }
@@ -259,8 +233,6 @@ aux_links:
 New (v0.4.0)
 {: .label .label-green }
 
-To add external links to the navigation, add them to the `nav_external_links` [configuration]({% link docs/configuration.md %}) option in your site's `_config.yml` file.
-External links will appear in the navigation after the links to ordinary pages, but before any collections.
 
 #### Example
 {: .no_toc }

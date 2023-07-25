@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lists
-parent: UI Components
+parent: NCEP ON 388-Grib1
 nav_order: 5
 ---
 

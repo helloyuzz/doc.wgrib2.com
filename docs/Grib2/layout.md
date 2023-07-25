@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Layout
-parent: Utilities
+parent: NCEP ON 388-Grib2
 ---
 
 # Layout Utilities
