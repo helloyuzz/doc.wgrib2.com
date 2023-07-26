@@ -20,15 +20,15 @@
     .nav-list-link {
       display: block;
       // min-height: $nav-list-item-height-sm;
-      padding-top: $sp-1;
-      padding-bottom: $sp-1;
+      padding-top: $sp-0;
+      padding-bottom: $sp-0;
       // line-height: #{$nav-list-item-height-sm - 2 * $sp-1};
       @if $nav-list-expander-right {
         padding-right: $nav-list-item-height-sm;
-        padding-left: $gutter-spacing-sm;
+        // padding-left: $gutter-spacing-sm;
       } @else {
         padding-right: $gutter-spacing-sm;
-        padding-left: $nav-list-item-height-sm;
+        // padding-left: $nav-list-item-height-sm;
       }
 
       @include mq(md) {

@@ -42,11 +42,11 @@
 .main-content-wrap {
   @include container;
 
-  padding-top: $gutter-spacing-sm;
+  padding-top: $sp-6;
   padding-bottom: $gutter-spacing-sm;
 
   @include mq(md) {
-    padding-top: $gutter-spacing;
+    padding-top: $sp-6;
     padding-bottom: $gutter-spacing;
   }
 }
