@@ -28,7 +28,7 @@ Recreated 04/25/2006
 
 <!-- ## Code -->
 
-| 二进制bit位 | description | 中文解释 |
+| Binary bit | Description | How to Usage |
 | :-----| :---- | :---- |
 | 1-4 | 'GRIB' (Coded CCITT-ITA No. 5) (ASCII) |  |
 | 5-7 | Total length, in octets, of the GRIB message (including Sections 0 & 5) |  |
