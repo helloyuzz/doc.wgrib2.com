@@ -7,32 +7,33 @@ nav_order: 1
 zh_cn: 标志定义
 ---
 
-## Table of contents
+<!-- ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
----
+ -->
 
-## SECTION 0 -THE INDICATOR SECTION (IS)
+<!-- ## SECTION 0 -THE INDICATOR SECTION (IS) -->
 
-```
+<!-- ```
 ### THE INDICATOR SECTION (IS)
 Recreated 04/25/2006
-```
+``` -->
+<hr>
 
 {: .note }
-The Indicator Section serves to: identify the start of the record in a human readable form, indicate the total length of the message, and indicate the Edition number of GRIB used to construct or encode the message.  This section is always eight octets long.
+{{ page.zh_cn }}
 
-## Code Translate
+<!-- ## Code -->
 
-| bit code | description | expain |
-| :-----| :----: | :----: |
+| 二进制bit位 | description | 中文解释 |
+| :-----| :---- | :---- |
 | 1-4 | 'GRIB' (Coded CCITT-ITA No. 5) (ASCII) |  |
 | 5-7 | Total length, in octets, of the GRIB message (including Sections 0 & 5) |  |
 | 8 | Edition number -- currently 1 |  |
-
+{:class=""}
 
 
 <!-- 

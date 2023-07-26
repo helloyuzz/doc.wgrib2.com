@@ -10,7 +10,7 @@
 }
 
 html {
-  @include fs-4;
+  @include fs-3;
 
   scroll-behavior: smooth;
 }
@@ -110,4 +110,17 @@ blockquote {
   margin-inline-start: 0;
   padding-left: 1rem;
   border-left: 3px solid $border-color;
+}
+.fw-bold{
+  font-weight: bold;
+}
+
+.fs-5{
+  font-size:1.2rem;
+}
+.fs-6{
+  font-size: 1rem;
+}
+.fs-7{
+  font-size:0.85rem;
 }

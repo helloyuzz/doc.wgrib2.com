@@ -113,7 +113,7 @@
   padding-left: 0;
   margin-bottom: $sp-1;
   list-style: none;
-  @include fs-4;
+  // @include fs-4;
 
   @include mq(md) {
     @include fs-3;

@@ -1,6 +1,6 @@
 <div class="side-bar">
   <div class="site-header" role="banner">
-    <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
+    <a href="{{ '/' | relative_url }}" class="site-title lh-tight fw-bold fs-5">{% include title.html %}</a>
     <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
       <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
     </a>
@@ -65,7 +65,7 @@
     {{ nav_footer_custom }}
   {% else %}
     <footer class="site-footer">
-      Documentation theme for Jekyll.
+      https://doc.wgrib2.com <a href="{{ site.github_links | absolute_url }}" class="nav-list-link external" style="margin-right: 16px;" target="_blank">Github<svg viewBox="0 0 24 24" style="width:16px" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg></a>
     </footer>
   {% endif %}
 </div>
