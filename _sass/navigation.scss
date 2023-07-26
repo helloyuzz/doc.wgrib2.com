@@ -19,10 +19,10 @@
 
     .nav-list-link {
       display: block;
-      min-height: $nav-list-item-height-sm;
+      // min-height: $nav-list-item-height-sm;
       padding-top: $sp-1;
       padding-bottom: $sp-1;
-      line-height: #{$nav-list-item-height-sm - 2 * $sp-1};
+      // line-height: #{$nav-list-item-height-sm - 2 * $sp-1};
       @if $nav-list-expander-right {
         padding-right: $nav-list-item-height-sm;
         padding-left: $gutter-spacing-sm;
@@ -32,8 +32,8 @@
       }
 
       @include mq(md) {
-        min-height: $nav-list-item-height;
-        line-height: #{$nav-list-item-height - 2 * $sp-1};
+        // min-height: $nav-list-item-height;
+        // line-height: #{$nav-list-item-height - 2 * $sp-1};
         @if $nav-list-expander-right {
           padding-right: $nav-list-item-height;
           padding-left: $gutter-spacing;
@@ -50,7 +50,7 @@
       }
 
       &.active {
-        font-weight: 600;
+        // font-weight: 600;
         text-decoration: none;
       }
 

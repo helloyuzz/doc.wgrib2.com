@@ -14,7 +14,7 @@
     {% if pages_top_size > 0 %}
       {% include nav.html pages=site.html_pages key=nil %}
     {% endif %}
-    {%- if site.nav_external_links -%}
+    <!-- {%- if site.nav_external_links -%}
       <ul class="nav-list">
         {%- for node in site.nav_external_links -%}
           <li class="nav-list-item external">
@@ -25,7 +25,7 @@
           </li>
         {%- endfor -%}
       </ul>
-    {%- endif -%}
+    {%- endif -%} -->
     {% if site.just_the_docs.collections %}
       {% assign collections_size = site.just_the_docs.collections | size %}
       {% for collection_entry in site.just_the_docs.collections %}

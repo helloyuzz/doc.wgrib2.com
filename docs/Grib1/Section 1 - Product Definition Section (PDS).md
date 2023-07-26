@@ -5,6 +5,7 @@ subtitle: Product Definition Section (PDS)
 parent: NCEP Office Note 388-Grib1
 nav_order: 2
 has_children: true
+zh_cn: 产品定义
 ---
 
 # Callouts

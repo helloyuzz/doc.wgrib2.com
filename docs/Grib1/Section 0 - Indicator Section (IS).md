@@ -4,6 +4,7 @@ title: Section 0
 subtitle: Indicator Section (IS)
 parent: NCEP Office Note 388-Grib1
 nav_order: 1
+zh_cn: 标志定义
 ---
 
 ## Table of contents
@@ -14,7 +15,7 @@ nav_order: 1
 
 ---
 
-## SECTION 0
+## SECTION 0 -THE INDICATOR SECTION (IS)
 
 ```
 ### THE INDICATOR SECTION (IS)
