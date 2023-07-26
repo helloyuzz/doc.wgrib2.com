@@ -80,7 +80,7 @@
                   <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
                 </button>
               {%- endif -%}
-              <a href="{{ child.url | relative_url }}" class="nav-list-link{% if page.url == child.url %} active{% endif %}"><span style="color:#260b93">{{ child.title }}</span> - <span>{{ child.subtitle }}</span></a>
+              <a href="{{ child.url | relative_url }}" class="nav-list-link{% if page.url == child.url %} active{% endif %}"><span style="color:#260b93">{{ child.title }}</span> {% if child.subtitle %}- <span>{{ child.subtitle }}</span>{% endif %}</a>
               {%- if child.has_children -%}
                 {%- assign grand_children_list = third_level_pages
                       | where: "parent", child.title
