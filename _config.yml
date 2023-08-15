@@ -115,7 +115,7 @@ github_links: https://github.com/helloyuzz/doc.wgrib2.com
 back_to_top: false
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2023 doc.wgrib2.com</a>"
+footer_content: "Copyright &copy; 2023 https://doc.wgrib2.com"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
