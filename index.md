@@ -5,7 +5,7 @@ nav_order: 0
 description: "ECMWF and NCEP(GFS) Specification"
 ---
 
-# NCEP Office Note 388 Documentation
+# Office Note 388 Documentation
 {: .fs-9 }
 
 <!-- ECMWF and NCEP(GFS) Specification
@@ -15,7 +15,7 @@ description: "ECMWF and NCEP(GFS) Specification"
 [View it on GitHub][Just the Docs repo]{:target="_blank" .btn .fs-5 .mb-4 .mb-md-0 }
 
 ```
-NCEP官方文档
+wgrib2.com官方文档
 ```
 
 [Just the Docs repo]: https://github.com/helloyuzz/doc.wgrib2.com
