@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-10-19 09:57:48
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-10-19 10:18:09
+# @Last Modified time: 2023-10-19 10:24:21
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole site, values
@@ -119,7 +119,7 @@ github_links: https://github.com/helloyuzz/doc.wgrib2.com
 back_to_top: false
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2023 https://doc.wgrib2.com"
+footer_content: "ecmwf & GFS & WMO Copyright &copy; 2001-2023 https://doc.wgrib2.com"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
