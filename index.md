@@ -15,7 +15,7 @@ description: "ECMWF and NCEP(GFS) Specification"
 [View it on GitHub][Just the Docs repo]{:target="_blank" .btn .fs-5 .mb-4 .mb-md-0 }
 
 ```
-wgrib2.com官方文档
+wgrib2.com 关注全球气象变化！
 ```
 
 [Just the Docs repo]: https://github.com/helloyuzz/doc.wgrib2.com

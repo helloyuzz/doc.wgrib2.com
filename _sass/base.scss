@@ -1,3 +1,9 @@
+/**
+ * @Author: Your name
+ * @Date:   2023-10-19 09:57:48
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2023-10-19 10:17:20
+ */
 // Base element style overrides
 // stylelint-disable selector-no-type, selector-max-type, selector-max-specificity, selector-max-id
 
@@ -75,7 +81,7 @@ a:not([class]) {
 
 code {
   font-family: $mono-font-family;
-  font-size: 0.75em;
+  // font-size: 0.75em;
   line-height: $body-line-height;
 }
 
